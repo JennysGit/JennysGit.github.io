@@ -3,12 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hello World</title>
+	<style type="text/css" src="style.css"></style>
+	<style>
+		body{
+			background: #ddd;
+		}
+		button{
+			padding: 8px 15px;
+			border: 1px solid #eee;
+			border-radius: 3px;
+			background-color: #fff;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
 	<div>
 		<h1>Hello World, this is my first home page test.
 		</h1>
+		<div id="hello"></div>
+		<button onclick="alert('hello')">Js Click event</button>
+		<button onclick="hello()">Js Click event 2</button>
 	</div>
+	<script type="text/javascript" src="test.js"></script>
 </body>
 </html>
 
